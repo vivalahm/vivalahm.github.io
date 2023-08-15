@@ -1,19 +1,5 @@
-# Bundler cache
-.bundle
-vendor
-Gemfile.lock
-
-# Jekyll cache
-.jekyll-cache
 _site
-
-# RubyGems
-*.gem
-
-# npm dependencies
-node_modules
-package-lock.json
-
-# IDE configurations
-.idea
-.vscode
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
