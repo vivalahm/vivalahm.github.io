@@ -41,7 +41,7 @@ refactor: true
 {% endif %}
 
 <div id="post-list">
-  {% for post in posts %}
+  {% for post in site.posts %}
     <a href="{{ post.url | relative_url }}" class="card-wrapper">
       <div class="card post-preview flex-md-row-reverse">
         {% if post.image %}
