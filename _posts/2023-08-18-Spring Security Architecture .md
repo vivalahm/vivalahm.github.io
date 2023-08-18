@@ -1,3 +1,16 @@
+---
+title: Spring Security Architecture
+date: 2023-08-18 12:20:00 +09:00
+categories: [Spring, Spring_Security]
+tags:
+  [
+    Spring,
+    Spring Security,
+    Spring Security Architecture
+  ]
+
+---
+
 # Spring Security Architecture
 
 이 가이드는 Spring Security의 기본 설계와 기본 구성 요소에 대한 입문서입니다. 우리는 응용 프로그램 보안의 매우 기본적인 부분만 다룹니다. 그러나 이를 통해 Spring Security를 사용하는 개발자들이 겪는 혼란을 해소할 수 있습니다. 이를 위해 웹 응용 프로그램에서 보안이 어떻게 적용되는지 필터를 사용하고, 보다 일반적으로 메서드 주석을 사용하여 살펴봅니다. 이 가이드는 보안 응용 프로그램이 어떻게 작동하는지, 어떻게 커스터마이징 될 수 있는지 이해가 필요할 때, 또는 응용 프로그램 보안에 대해 어떻게 생각해야 하는지 배울 필요가 있을 때 사용하십시오.
