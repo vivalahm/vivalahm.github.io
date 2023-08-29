@@ -22,8 +22,6 @@ title: 감자누리의 개발일지 # the main title
 
 tagline: 배겐드 개발자 # it will display as the sub-title
 
-subdescription: 단순히 기술이 아닌 문제해결을 생각하고 고민하는 기록 블로그입니다.
-
 description: >- # used by seo meta and the atom feed
   목적없는 개발을 지양하며 우리의 삶을 개선하는 개발자로서 성장 하기 위한 기록 블로그
 
