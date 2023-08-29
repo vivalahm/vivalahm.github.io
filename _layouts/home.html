@@ -50,8 +50,8 @@ refactor: true
     class="mb-5"
   {% endunless %}
 >
-  {% for post in posts %}
-    <a href="{{ post.url | relative_url }}" class="card-wrapper">
+  {% for post in site.posts %}
+  <a href="{{ post.url | relative_url }}" class="card-wrapper">
       <div class="card post-preview flex-md-row-reverse">
         {% if post.image %}
           {% if post.image.lqip %}
