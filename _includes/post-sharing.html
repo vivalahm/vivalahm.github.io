@@ -7,6 +7,34 @@
     {% assign title = title | uri_escape %}
     {% assign url = page.url | absolute_url | url_encode %}
 
+    <!-- Share Link to Kakao -->
+    {% capture pre_img %}{{ page.image.path | default: page.image }}"{% endcapture %}
+    <script src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
+    <script> Kakao.init('85d7b653c0d4f963bdafcc1c07338e51'); </script>
+    <script>
+      function shareLink() {
+        Kakao.Link.sendCustom({
+          templateId: 95089,
+          templateArgs: {
+            title: "{{ page.title }}",
+            description: "{{ post.excerpt }}",
+          },
+        });
+      }
+    </script>
+    <a
+      onclick="shareLink(this);"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      title="KakaoTalk"
+      target="_blank"
+      rel="noopener"
+      aria-label="KakaoTalk"
+    >
+      <i class="fa-fw fa-solid fa-comment"></i>
+    </a>
+    
+    <!-- Telegram, Linkedin -->
     {% for share in site.data.share.platforms %}
       {% assign link = share.link | replace: 'TITLE', title | replace: 'URL', url %}
       <a
@@ -22,6 +50,7 @@
       </a>
     {% endfor %}
 
+    <!-- Copy Link -->
     <i
       id="copy-link"
       class="fa-fw fas fa-link small"
@@ -33,3 +62,4 @@
     </i>
   </span>
 </div>
+
