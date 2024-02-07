@@ -1,13 +1,15 @@
 ---
+title: Telemetry
+date: 2024-02-07 14:15:00 +09:00
+categories: [모니터링,가시성]
+tags:
+  [
+    모니터링,가시성
+  ]
 
-Title: Telemetry
-Date: 2024-02-07 14:15:00 +09:00
-Categories: [모니터링,가시성]
-Tags:[
-모니터링,가시성
-]
+
+
 ---
-
 ## 모니터링(Monitoring) VS 가시성(Observability)
 
 ### 모니터링(Monitoring) 
