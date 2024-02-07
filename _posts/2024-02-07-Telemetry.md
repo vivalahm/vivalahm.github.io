@@ -55,7 +55,7 @@ tags:
 
 ### 가트너 제공 2023년 모니터링과 가시성에 관련된 제품군
 
-![Gartner Magic Quadrant™ 2023 Observability Leaders | Honeycomb](https://www.honeycomb.io/wp-content/uploads/2023/07/gartner-magic-quadrant-2023-large.png)
+![image](https://github.com/vivalahm/vivalahm.github.io/assets/48741014/b1170f88-41bd-407a-b04b-3a4f242f5365)
 
 - 가트너의 보고에 따르면 `SaaS 제품군`이 `복잡도가 높은 시스템`에서 `리더 그룹`에 속해 있다.
 - `클라우드 벤더사 솔루션`은 지속적으로 개선되고 있는 `도전자 그룹`에 속해있다.
